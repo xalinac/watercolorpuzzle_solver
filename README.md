@@ -24,6 +24,8 @@
 
    ```bash
    git clone https://github.com/xalinac/watercolorpuzzle_solver
+   ```
+   ```
    cd watercolorpuzzle_solver
    ```
 
