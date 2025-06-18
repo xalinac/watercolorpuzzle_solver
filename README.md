@@ -19,7 +19,21 @@
 ## Запуск
 
 Проект использует Maven.
+### Windows
+[Скачать Maven](https://maven.apache.org/download.cgi)
+```
+choco install maven
+```
+или
+```
+scoop install main/maven
+```
+### macOS / Linux
+```
+brew install maven
+```
 
+<<<<<<< HEAD
 ### Windows
 
 [Скачать Maven](https://maven.apache.org/download.cgi)
@@ -51,12 +65,23 @@ brew install maven
 
    ### macOS / Linux
 
+=======
+
+1. Скачайте репозиторий:
+
+   ### Windows
+    ```bash
+    git clone https://github.com/xalinac/watercolorpuzzle_solver &&
+    cd watercolorpuzzle_solver
+    ```
+   ### macOS / Linux
+>>>>>>> 4e6e81c70047f7825a25d706089fdde0cf6397c9
    ```
    git clone https://github.com/xalinac/watercolorpuzzle_solver
    cd watercolorpuzzle_solver
    ```
 
-2. Соберите и запустите проект:
+3. Соберите и запустите проект:
    ```
    mvn -q clean compile exec:java
    ```
