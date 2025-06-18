@@ -24,7 +24,7 @@
 
    ```bash
    git clone https://github.com/xalinac/watercolorpuzzle_solver
-   cd waterpuzzle_solver
+   cd watercolorpuzzle_solver
    ```
 
 2. Соберите и запустите проект:
