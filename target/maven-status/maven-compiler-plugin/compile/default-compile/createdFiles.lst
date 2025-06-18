@@ -1,0 +1,6 @@
+com\example\puzzle_solver\IDAStarSolver.class
+com\example\puzzle_solver\Tube.class
+com\example\puzzle_solver\Main.class
+com\example\puzzle_solver\State.class
+com\example\puzzle_solver\Heuristic.class
+com\example\puzzle_solver\Move.class
