@@ -32,8 +32,6 @@ scoop install main/maven
 ```
 brew install maven
 ```
-
-<<<<<<< HEAD
 ### Windows
 
 [Скачать Maven](https://maven.apache.org/download.cgi)
@@ -65,8 +63,6 @@ brew install maven
 
    ### macOS / Linux
 
-=======
-
 1. Скачайте репозиторий:
 
    ### Windows
@@ -75,7 +71,6 @@ brew install maven
     cd watercolorpuzzle_solver
     ```
    ### macOS / Linux
->>>>>>> 4e6e81c70047f7825a25d706089fdde0cf6397c9
    ```
    git clone https://github.com/xalinac/watercolorpuzzle_solver
    cd watercolorpuzzle_solver
