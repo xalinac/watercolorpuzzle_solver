@@ -24,6 +24,18 @@ public class Main {
         } else {
             System.out.println("Solved within " + solution.size() + " steps:");
             printSolution(solution);
+
+            // Для проверки финального состояния
+            // State finalState = startState;
+            // for (Move move : solution) {
+            // finalState = finalState.applyMove(move);
+            // }
+
+            // System.out.println("\nFinal tube state:");
+            // List<Tube> finalTubes = finalState.getTubes();
+            // for (int i = 0; i < finalTubes.size(); i++) {
+            // System.out.printf("Tube %2d: %s%n", i, finalTubes.get(i));
+            // }
         }
     }
 
@@ -71,4 +83,5 @@ public class Main {
             System.out.println();
         }
     }
+
 }
