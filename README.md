@@ -22,14 +22,18 @@
 
 1. Склонируйте репозиторий:
 
-   ```bash
+   ### Windows (PowerShell или CMD)
+    ```bash
+    git clone https://github.com/xalinac/watercolorpuzzle_solver &&
+    cd watercolorpuzzle_solver
+    ```
+   ### macOS / Linux (терминал)
+   ```
    git clone https://github.com/xalinac/watercolorpuzzle_solver
-   ```
-   ```
    cd watercolorpuzzle_solver
    ```
 
-2. Соберите и запустите проект:
+3. Соберите и запустите проект:
    ```
    mvn clean compile exec:java
    ```
