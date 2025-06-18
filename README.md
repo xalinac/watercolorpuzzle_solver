@@ -49,7 +49,7 @@ brew install maven
 
 3. Соберите и запустите проект:
    ```
-   mvn clean compile exec:java
+   mvn -q clean compile exec:java
    ```
 
 ## Структура проекта
